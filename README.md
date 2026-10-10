@@ -16,9 +16,11 @@ une fois, au premier lancement.
 2. Ouvrez le fichier téléchargé. Android demande d'autoriser l'installation
    depuis le navigateur : acceptez pour cette fois.
 3. Ouvrez Transmissions. L'app mesure le téléphone et propose un niveau
-   d'analyse, puis télécharge ses modèles (de 0,2 à 5,2 Go selon le niveau).
-   Faites-le en Wi-Fi, app ouverte ; une coupure ne fait rien perdre, le
-   téléchargement reprend où il en était.
+   d'analyse, puis télécharge ses modèles (de 0,9 à 5,5 Go selon le niveau).
+   Choisissez **Wi-Fi seulement** ou **Wi-Fi ou 4G** : en Wi-Fi seulement,
+   le téléchargement se met en pause quand le téléphone passe en 4G et
+   repart tout seul au retour du Wi-Fi. Gardez l'app ouverte ; une coupure ne
+   fait rien perdre, le téléchargement reprend où il en était.
 
 Il faut Android 10 ou plus récent, sur un téléphone 64 bits (tous ceux vendus
 depuis 2017 environ).
@@ -44,5 +46,12 @@ Les données sont chiffrées sur le téléphone, protégées par l'empreinte ou 
 code, et exclues des sauvegardes en ligne. Le son des vocaux s'efface au bout
 de quelques jours (réglable) ; l'historique d'un patient, après la fin de ses
 soins.
+
+## Mettre à jour
+
+Ouvrez à nouveau le lien d'installation : la nouvelle version s'installe
+par-dessus l'ancienne, les patients et l'historique sont gardés. Si une version
+change de modèles, l'app le dit au lancement et télécharge seulement ce qui
+manque, après avoir effacé les anciens.
 
 Version d'essai : merci de signaler tout ce qui cloche.
